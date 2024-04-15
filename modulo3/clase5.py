@@ -22,7 +22,7 @@ print(nuevo_texto)
 
 # Extracción de URLs en un HTML
 html = '<p>Enlace uno <a href ="http://www.google.com">Enlace 1</a>'
-patron_url = r'<a href="(.*?)">(.*?)</a>'
+patron_url = r'<a href\s*=\s*"(.*?)">(.*?)</a>'
 enlaces = re.findall(patron_url, html)
 
 for enlace in enlaces:
