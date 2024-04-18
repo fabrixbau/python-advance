@@ -2,3 +2,7 @@ flake8
 pre-commit
 requests
 pillow
+pytz
+numpy
+bs4
+prefect
